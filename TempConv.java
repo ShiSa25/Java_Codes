@@ -8,9 +8,5 @@ public class TempConv {
         float temp1 = (temp * 9/5) + 32 ;
         System.out.println("The temp in Fahrenheit is: " + temp1);
         in.close();
-
-
     }
-
-
 }
