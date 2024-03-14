@@ -6,5 +6,6 @@ public class Input {
         System.out.println("Enter your Name: ");
         String name = input.next();
         System.out.println("Welcome, " + name + "!");
+        input.close();
     }
 }
